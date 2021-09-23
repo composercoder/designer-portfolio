@@ -1,0 +1,12 @@
+@import '/styles/variables.scss';
+
+.headingh1 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 1.2em;
+  color: $dark;
+
+  @media screen and (min-width: 992px) {
+    font-size: 4.4em;
+  }
+}

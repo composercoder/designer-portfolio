@@ -1,0 +1,29 @@
+@import '/styles/variables.scss';
+
+.article {
+  background-color: rgb(242, 246, 255);
+
+  &__paragraph {
+    font-size: 1.7rem;
+    padding-bottom: 1em;
+    white-space: pre-wrap;
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  &__paragraph--italic {
+    @extend .article__paragraph;
+    font-style: italic;
+  }
+
+  &__image {
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  &__link-to-original {
+    font-size: 1.8rem;
+    color: $secondary;
+    text-decoration: underline;
+  }
+}

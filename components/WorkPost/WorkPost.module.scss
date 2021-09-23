@@ -1,0 +1,56 @@
+@import '/styles/variables';
+
+.work_post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #E0E0E0;
+  
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+    padding-bottom: 3em;
+  }
+
+  &__img {
+    width: 246px;
+  }
+
+  &__text_wrapper {
+    padding-top: 1.2em;
+
+    @media screen and (min-width: 768px) {
+      padding-top: 0;
+      padding-left: 1.5em;
+    }
+  }
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: $dark;
+  }
+
+  &__date_and_topic {
+    font-family: Heebo;
+    padding-top: 0.7em;
+    padding-bottom: 0.5em;
+  }
+
+  &__date {
+    padding: 0.2em 0.5em;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #142850;
+    border-radius: 16px;
+  }
+
+  &__topic {
+    font-size: 2rem;
+    font-weight: 400;
+    color: $light;
+    padding-left: 1.2em;
+  }
+}

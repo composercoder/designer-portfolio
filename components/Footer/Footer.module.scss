@@ -1,0 +1,22 @@
+@import '/styles/variables.scss';
+
+.footer {
+  text-align: center;
+  padding: 6em 1em;
+
+  &__icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 1.7em;
+    margin-right: 1.7em;
+  }
+
+  &__author {
+    display: block;
+    margin-top: 1em;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: $dark;
+    text-decoration: underline;
+  }
+}

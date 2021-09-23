@@ -1,0 +1,15 @@
+@import '/styles/variables';
+
+.work-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: $dark;
+
+
+  @media screen and (min-width: 576px) {
+    font-size: 3.4rem;
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 2em;
+  }
+}

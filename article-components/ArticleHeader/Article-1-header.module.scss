@@ -1,0 +1,12 @@
+.article-1-header {
+  text-align: center;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background: url('/img/article-1-img/gradient.jpg') no-repeat center bottom / cover;
+
+
+  @media screen and (min-width: 992px) {
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+}

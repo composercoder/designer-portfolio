@@ -1,0 +1,52 @@
+.article-2-header {
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 95vw;
+  background-color: #302f37;
+  background-image: url('/img/article-2-img/cover2-mob.jpg');
+  background-position: center bottom;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 415px) {
+    padding-bottom: 43em;
+    background-size: 400px;
+  }
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+    padding-left: 3%;
+    padding-right: 400px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-position: right top;
+    background-size: contain;
+    background-image: url('/img/article-2-img/cover4.jpg');
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-right: 550px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-right: 25%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__text-wrapper {
+    width: 85%;
+    max-width: 340px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 768px) {
+      width: auto;
+      max-width: auto;
+    }
+
+    @media screen and (min-width: 1280px) {
+      max-width: 100%;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@use '/components/Container/Container.module' as *;
+@import '/styles/variables';
+
+.featured_works_section {
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+
+  &__container {
+    @extend .container;
+  }
+}

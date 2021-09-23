@@ -1,0 +1,12 @@
+@import '/styles/variables';
+
+.work-heading1 {
+  font-size: 3rem;
+  font-weight: 500;
+  color: $dark;
+  padding-top: 0.5em;
+  
+  @media screen and (min-width: 992px) {
+    padding-top: 1em;
+  }
+}

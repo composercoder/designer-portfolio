@@ -1,0 +1,11 @@
+.article-link-list {
+  &__item {
+    font-size: 1.8rem;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+  }
+  &__link {
+    color: rgb(72, 42, 155);
+    text-decoration: none;
+  }
+}

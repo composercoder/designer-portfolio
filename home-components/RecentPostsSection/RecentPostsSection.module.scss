@@ -1,0 +1,40 @@
+@import '/styles/variables';
+
+.recent_posts_section {
+  padding-top: 2em;
+  padding-bottom: 2.5em;
+  background-color: #EDF7FA;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+       max-width: 100%;
+       margin-left: 0;
+       margin-right: 0;
+    }
+  }
+
+  &__posts_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: stretch;
+    }
+  }
+
+  &__link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: $secondary;
+  }
+}

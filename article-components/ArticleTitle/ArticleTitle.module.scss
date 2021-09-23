@@ -1,0 +1,12 @@
+.article-title {
+  font-size: 3.5rem;
+  color: #ffffff;
+  text-shadow: 0 0 4px #403993, -1px -1px 4px #403993, 1px 1px 4px #403993;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3.7rem;
+  }
+  @media screen and (min-width: 992px) {
+    font-size: 4rem;
+  }
+}

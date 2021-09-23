@@ -1,0 +1,26 @@
+{
+  "name": "designer-portfolio",
+  "version": "1.0.0",
+  "description": "Web-designer portfolio, built with Next.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "keywords": [
+    "designer",
+    "web-designer",
+    "portfolio",
+    "design",
+    "web-design",
+    "Next"
+  ],
+  "author": "Valentina Chernova",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "sass": "^1.39.0"
+  }
+}

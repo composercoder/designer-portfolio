@@ -1,0 +1,33 @@
+.article-4-header {
+  padding-top: 3em;
+  padding-bottom: 40em;
+  padding-left: 3em;
+  padding-right: 3em;
+
+  background-image: url('/img/article-4-img/cover-desktop2-mob.jpg');
+  background-color: #31a8d5;
+  background-size: 100%;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+  @media screen and (min-width: 415px) {
+    background-size: 360px;
+  }
+  @media screen and (min-width: 768px) {
+    background-image: url('/img/article-4-img/cover-desktop2.jpg');
+    background-color: #31a8d5;
+    background-position: right center;
+    background-size: contain;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 40%;
+  }
+  @media screen and (min-width: 992px) {
+    padding-top: 10em;
+    padding-bottom: 10em;
+    padding-left: 5em;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-left: 10%;
+  }
+}

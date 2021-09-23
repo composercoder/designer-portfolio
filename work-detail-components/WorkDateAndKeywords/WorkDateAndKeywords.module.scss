@@ -1,0 +1,34 @@
+@import '/styles/variables';
+
+.date-and-keywords {
+  display: flex;
+  font-family: Heebo;
+  font-size: 2rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  &__date {
+    align-self: center;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #FF7C7C;
+    border-radius: 16px;
+  }
+
+  &__keywords {
+    font-weight: 400;
+    line-height: 1.5em;
+    color: $dark;
+    padding-left: 1.2em;
+    text-align: right;
+
+    @media screen and (min-width: 400px) {
+      text-align: left;
+    }
+  }
+}
