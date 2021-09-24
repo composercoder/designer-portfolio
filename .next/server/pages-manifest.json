@@ -1,0 +1,14 @@
+{
+  "/_app": "pages/_app.js",
+  "/blog": "pages/blog.html",
+  "/blog/article-1": "pages/blog/article-1.html",
+  "/blog/article-2": "pages/blog/article-2.html",
+  "/blog/article-3": "pages/blog/article-3.html",
+  "/blog/article-4": "pages/blog/article-4.html",
+  "/": "pages/index.html",
+  "/work-detail/work-1": "pages/work-detail/work-1.html",
+  "/works": "pages/works.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
